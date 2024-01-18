@@ -4,8 +4,8 @@ function Footer() {
   return (
 <footer
   className="flex flex-col items-center bg-slate-950  text-center text-lightblue  ">
-  <div className="container pt-9">
-    <div className="mb-9 flex justify-center">
+  <div className="container ">
+    <div className="mb-2 flex justify-center">
       <a href="#!" className="mr-9 text-lightblue hover:text-white ">
         <svg
           xmlns="http://www.w3.org/2000/svg"

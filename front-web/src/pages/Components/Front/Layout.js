@@ -13,7 +13,7 @@ function Layout({children}) {
   return (
     <>
     <Navbar/>
-    <main className={`flex min-h-screen flex-col w-screeen  bg-slate-950 ${roboto.className}`}>
+    <main className={`flex h-auto flex-col w-screeen  bg-slate-950 ${roboto.className}`}>
         {children}
   </main>
   <Footer/>
