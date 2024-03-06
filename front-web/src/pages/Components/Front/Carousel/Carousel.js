@@ -91,15 +91,13 @@ const Carousel =() => {
            <>
            <div className={`min-w-full min-h-full absolute top-0 left-0 right-0 bottom-0 p-0 m-0 `} >
             <div className={`  relative drop-shadow-none shadow-none  ${isActive?" min-w-full  z-0 min-h-full ":"  w-[170px] h-[255px] mt-12"}`} >
-            <Image src={image}  className={`transition  ease-in-out delay-200  `} fill priority objectFit='cover' alt={`Slide ${index + 1}`} />
-            
-            
+            <Image src={image}  className={`transition ease-in-out delay-200`} fill priority objectFit='cover' alt={`Slide ${index + 1}`} />
             <div className={`absolute  left-0 right-0   top-full bg-transparent w-full h-full z-10 mx-auto ${isActive?"":"  "}`}>
             <div className='min-w-full min-h-full relative mx-auto 	drop-shadow-none shadow-none '>
             <Image src={image}  className={`rotate-180 opacity-20 z-10  transition ease-in-out delay-200 ${isActive?"p-0 ease-linear ":""}`} fill priority objectFit='fill' alt={`Slide ${index + 1}`} />
 
             <div className='absolute top-0 left-0 right-0 text-center p-2 w-full z-50'>
-                <Link className='z-50' href="/">
+                <Link className='z-50' href="/category/1">
                 Wedding
                 </Link>
                 

@@ -15,8 +15,8 @@ function Navbar() {
     const router = useRouter()
   return (
     <nav className={`w-full  flex justify-between items-center bg-slate-950 px-10 pt-10 ${roboto.className}`}>
-        <div className=' w-52 h-24 relative '>
-            <Image src={Logo} fill priority objectFit='cover' alt="No Image"/>
+        <div className=' w-52 h-24  '>
+            <Image src={Logo} width={400} height={200} priority objectFit='cover' alt="No Image"/>
 
         </div>
         <div className='max-sm:hidden sm:hidden md:hidden lg:flex xl:flex  flex-col items-center '>
